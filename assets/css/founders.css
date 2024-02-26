@@ -1,0 +1,30 @@
+#founders{
+    width: 100%;
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-evenly;
+}
+.founder-profile{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.founder-profile img{   
+    border-radius: 50%;
+    width: 20%;
+}
+.founder-profile h5 {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+
+@media (max-width: 575px){
+    .founder-profile img{
+        width: 50%;
+    }
+    .founder-profile h5,p{
+        font-size: 1rem;
+    }
+}
