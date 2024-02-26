@@ -298,8 +298,9 @@ h6 {
 }
 
 .header .logo i {
-  font-size: 32px;
-  margin-right: 8px;
+  font-size: 40px;
+  margin-right: 10px;
+  margin-left: 3px;
   line-height: 0;
 }
 
